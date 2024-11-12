@@ -71,6 +71,7 @@ CACHE_CONFIG = {
 }
 DATA_CACHE_CONFIG = CACHE_CONFIG
 
+SECRET_KEY = 'S7U36DOZdtFOUbDGllTzGu+zKSSU4zntv6rrfHAPaVdqY1JuclmdK2nY'
 
 class CeleryConfig:
     broker_url = f"redis://{REDIS_HOST}:{REDIS_PORT}/{REDIS_CELERY_DB}"
